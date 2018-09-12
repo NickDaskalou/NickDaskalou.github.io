@@ -1,0 +1,23 @@
+.crop {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+		.crop img {
+			height: 100vh;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			position: fixed;
+		}
+		#trail {
+			z-index: 1;
+			margin-top: 10px;
+			position: absolute;
+			width: 100%;
+			height: 25%;
+			left: 0;
+		}
